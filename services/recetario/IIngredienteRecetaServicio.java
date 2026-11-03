@@ -5,6 +5,7 @@ public interface IIngredienteRecetaServicio {
     List<IngredienteReceta> listartodos();
     IngredienteReceta actualizar (long id, IngredienteReceta ingredienteReceta);
     boolean eliminar (long id);
+
     list<IngredienteReceta> buscarporReceta (long idReceta);
 
 
